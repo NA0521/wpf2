@@ -1,0 +1,15 @@
+﻿<Window x:Class="BindingTwoControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BindingTwoControl"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel DataContext="{Binding ElementName=scrollbar}">
+        <ScrollBar Name="scrollbar" Orientation="Horizontal" Margin="24" Minimum="1" Maximum="100" LargeChange="10" SmallChange="1"/>
+        <Label HorizontalAlignment="Center" Content="{Binding Path=Value, Mode=OneWay}"/>
+        <Button HorizontalAlignment="Center" Margin="24" FontSize="{Binding Path=Value, Mode=OneWay}">Bound button</Button>
+                
+    </StackPanel>
+</Window>

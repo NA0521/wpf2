@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBindingSortExam", "DataBindingSortExam\DataBindingSortExam.csproj", "{1BE7B339-7360-489E-8A85-5AE4FCE8C8FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BE7B339-7360-489E-8A85-5AE4FCE8C8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE7B339-7360-489E-8A85-5AE4FCE8C8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE7B339-7360-489E-8A85-5AE4FCE8C8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE7B339-7360-489E-8A85-5AE4FCE8C8FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D58000AE-8188-491E-AF8A-35BE3B0E9A91}
+	EndGlobalSection
+EndGlobal
